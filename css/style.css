@@ -8,10 +8,11 @@
 /* main styling */
 html,
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.7em;
 }
 
+/* The Head Section for Home and About. */
 a {
     color: #333;
     text-decoration: none;
@@ -37,6 +38,7 @@ p {
 
 .text-primary {
     color: #0f0202;
+    
 }
 
 .lead {
@@ -76,6 +78,7 @@ p {
 
 .l-heading {
     font-size: 40px;
+    color: #000;
 }
 
 .btn-light {
@@ -161,6 +164,9 @@ p {
     line-height: 1.7em;
 }
 
+
+/* The Body Part of Home Page*/
+
 /* home info */
 #home-info {
     height: 400px;
@@ -169,7 +175,7 @@ p {
 #home-info .info-img {
     float: left;
     width: 50%;
-    background: url('https://images.pexels.com/photos/705773/pexels-photo-705773.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat;
+    background: url('../images/hotellegacy.jpeg') no-repeat;
     min-height: 100%;
 }
 
@@ -233,17 +239,29 @@ p {
     padding-bottom: 40px;
 }
 
-#testimonials .testimonial {
-    padding: 20px;
+#testimonials .testimonial-1 {
+    padding: 50px;
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+#testimonials .testimonial-2 {
+    padding: 40px;
     margin-bottom: 40px;
     opacity: 0.9;
 }
 
-#testimonials .testimonial img {
-    width: 90px;
+#testimonials .testimonial-1 img {
+    width: 60px;
+    overflow: auto;
     float: left;
     margin-right: 20px;
-    border-radius: 50%;
+    border-radius: 30%;
+}
+#testimonials .testimonial-2 img {
+    width: 80px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 40%;
 }
 
 /* contact */
